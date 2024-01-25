@@ -11,20 +11,10 @@ pipeline {
                 //
             }
         }
-        stage('Dev') {
+        stage('Deploy') {
             steps {
                 //
             }
         }
-        stage('staging'){
-            steps{
-
-            }
-        }
-        stage('Production'){
-            steps{
-                
-            }
-        }
-        }
+    }
 }
